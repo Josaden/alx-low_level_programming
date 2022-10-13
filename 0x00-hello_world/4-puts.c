@@ -2,7 +2,8 @@
 int main(void)
 
 	/**
-	 * This is Betty style coding c
+	 *main prints phrase...
+	 Return: 0 sucess
 	 *
 	  *Description: This is how to create the main function with void
 	  */
