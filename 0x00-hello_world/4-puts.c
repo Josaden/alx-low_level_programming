@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * Description: This is the 'main' function
- * Returns 0
+ * main: This is the main function
+ * returns: Always 0
  * Ths is the description of the main function
  */
 int main(void)
