@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Ths is the description of the main function 
+ * Ths is the description of the main function
  */
 int main(void)
 {
