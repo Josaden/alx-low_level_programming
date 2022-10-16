@@ -8,9 +8,11 @@
 
 int main(void)
 {
-	for (int x = 97; x <= 122; x++)
+	int x;
+
+	for (x = 97; x <= 122; x++)
 		putchar(x);
-	for (int x = 97; x <= 122; x++)
+	for (x = 97; x <= 122; x++)
 		putchar(toupper(x));
 	putchar(10);
 	return (0);
