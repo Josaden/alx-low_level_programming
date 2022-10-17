@@ -9,14 +9,16 @@ int main(void)
 {
 	int x, cm, spa, nl;
 
-	nl = 10
+	nl = 10;
 
 	cm = 44;
 
 	spa = 32;
 
 	for (x = 48; x <= 57; x++)
+	{
 		putchar(x);
+
 		if (x == 57)
 		{
 		}
@@ -25,6 +27,7 @@ int main(void)
 			putchar(cm);
 			putchar(spa);
 		}
+	}
 		putchar(nl);
 	return (0);
 }
