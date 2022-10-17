@@ -7,22 +7,21 @@
 
 int main(void)
 {
-	int x, nl, cm;
+	int x, cm, spa;
 
 	cm = 44;
 
-	nl = 10;
+	spa = 32;
 
 	for (x = 48; x <= 57; x++)
 		if (x != 57)
 		{
 			putchar(x);
 			putchar(cm);
+			putchar(spa);
 		}
 		else
 			putchar(x);
-
-	putchar(nl);
 
 	return (0);
 }
