@@ -8,6 +8,8 @@ int main(void)
 {
 	int x, nl;
 
+	nl = 10;
+
 	for (x = 97; x <= 122; x++)
 		if ((x == 101) || (x == 133))
 		{}
