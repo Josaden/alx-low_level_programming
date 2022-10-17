@@ -9,7 +9,7 @@ int main(void)
 	int x;
 
 	for (x = 97; x <= 122; x++)
-		if ((c == 101) || (x == 133))
+		if ((x == 101) || (x == 133))
 		{}
 		else
 			putchar(x);
