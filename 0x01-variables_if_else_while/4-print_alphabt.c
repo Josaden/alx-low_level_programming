@@ -13,7 +13,7 @@ int main(void)
 		{}
 		else
 			putchar(x);
-	putchar("nl");
+	putchar(nl);
 
 	return (0);
 }
