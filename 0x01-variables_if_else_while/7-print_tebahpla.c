@@ -11,10 +11,7 @@ int main(void)
 	nl = 10;
 
 	for (x = 122; x >= 97; x--)
-		if ((x == 101) || (x == 113))
-		{}
-		else
-			putchar(x);
+		putchar(x);
 	putchar(nl);
 
 	return (0);
