@@ -2,7 +2,7 @@
 
 /**
  * _islower - Entry point
- * Return: 0 if successful and 1 if unsuccessful
+ * Return: 1 if successful and 0 if unsuccessful
  * @c: can be any lowercase letter
  */
 
@@ -10,10 +10,10 @@ int _islower(int c)
 {
 	if ((c >= 97) && (c <= 122))
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
