@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - function that draws a diagonal line on the terminal
+ * @n: numer of spaces before the backslash
  * Return: void
  */
 
