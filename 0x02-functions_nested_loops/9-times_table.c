@@ -22,23 +22,22 @@ void times_table(void)
 				{
 					_putchar(' ')
 				}
+				_putchar(mu + '0');
 			}
-			_putchar(mu + '0');
+			else
+			{
+				_putchar(mu / 10 + '0');
+				_putchar(mu % 10 + '0');
+			}
+			if (b != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('\n');
+			}
 		}
-		else
-		{
-			_putchar(mu / 10 + '0');
-			_putchar(mu % 10 + '0');
-		}
-		if (b != 9)
-		{
-			_putchar(',');
-			_putchar(' ');
-		}
-		else
-		{
-			_putchar('\n');
-		}
-
-}
+	}
 }
